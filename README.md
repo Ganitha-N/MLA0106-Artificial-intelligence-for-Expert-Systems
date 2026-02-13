@@ -15,3 +15,20 @@ BFS(Graph, start):
               If u is not visited:
                      Add u to Q
                      Mark u as visited
+
+
+   DFS
+   DFS(Graph, start)
+
+1. Create empty set Visited
+2. Call DFS_Visit(start)
+
+DFS_Visit(node)
+
+1. Mark node as visited
+2. Print node
+
+3. For each neighbor u of node:
+       If u is not visited:
+            Call DFS_Visit(u)
+
